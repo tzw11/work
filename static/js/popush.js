@@ -959,15 +959,6 @@ function backto(n) {
 	});
 }
 
-function changeversion() {
-	if($('#versionl').text() == 'English Version'){
-		window.location.href='Eindex.html';
-	}
-	else{
-		window.location.href='index.html';
-	}
-
-}
 /////////////////////// initialize ///////////////////////////
 
 $(document).ready(function() {
