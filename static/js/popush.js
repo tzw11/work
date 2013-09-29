@@ -89,6 +89,14 @@ function showmessage(id, stringid, type) {
 		$('#' + id + ' span').html(stringid);
 	o.slideDown();
 }
+function showtips(){
+	var o = $('#tips');
+	o[0].style.display = "";
+}
+function hidetips(){
+	var o = $('#tips');
+	o[0].style.display = "none";
+}
 
 function showmessageindialog(id, stringid, index) {
 	if(index === undefined) {
